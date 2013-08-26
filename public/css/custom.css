@@ -1,0 +1,78 @@
+body{
+	padding-bottom: 60px;
+
+	background-image:url('../img/background.png');
+}
+
+#postForm{
+	width: 585px;
+
+	margin: 20px auto;
+
+	clear: both;
+
+	background-color: rgb(238, 238, 238);
+	border-radius: 6px;
+}
+
+#postForm textarea{
+	width: 550px;
+
+	margin-top: 10px;
+
+	clear: both;
+}
+
+#postForm button{
+	margin: 0px 10px 10px 0px;
+
+	float: right;
+}
+
+.msgBox{
+	width: 565px;
+
+	margin: 20px auto;
+	padding: 10px;
+
+	clear: both;
+
+	background-color: rgb(238, 238, 238);
+	border-radius: 6px;
+}
+
+.postInfo form{
+	float: left;
+
+	margin-top: -10px;
+}
+
+.msgTime{
+	float: right;
+
+	font-size: 10px;
+	font-style: italic;
+
+	color: rgb(119, 119, 119);
+}
+
+.msgBox .msgContent{
+	padding-bottom: 10px;
+	border-bottom: 1px dotted rgb(180, 180, 180);
+}
+
+.msgBox textarea{
+	width: 505px;
+
+	margin-top: 10px;
+}
+
+.msgBox button{
+	margin-top: 10px;
+
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
